@@ -15,7 +15,7 @@ export const HomeBanner = (props) => {
                             className="text-center mx-auto mt-4"
                             type="heavy"
                         >
-                            Full Stack Developer
+                            Full Stack Software Engineer
                         </PageTitle>
                         <Content className="text-center" alignment="center">
                             <p className=" leading-7">{ passdata }</p>

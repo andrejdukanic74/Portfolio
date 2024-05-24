@@ -18,38 +18,49 @@ const navigation = [
 
 // HomeBanner
 
-const profile = 'Full Stack Developer with over 5 years of professional experience in software development, focusing on React, Next and Node. ' +
-    'Proficient in all aspects of the development process, from requirement gathering and design to deployment and maintenance. ' +
-    'Skilled in designing and building scalable and maintainable applications using modern technologies and best practices. ' +
-    'Passionate about working in a fast-paced, collaborative environment and staying up to date with the latest industry trends.';
-
+const profile = `I am a Senior Full-Stack Software Engineer.
+I provide custom Web Apps, Websites, and High Quality - on-time Development.
+I have over 7 years of experience in the IT field. I've created a number of comparison websites, browser extensions as well as other apps for clients that have increased revenue for their businesses as well as streamlined their work flows.
+I have expert knowledge with affiliate marketing. My experience includes building two of the TOP 5 affiliate networks in the world - mundomedia.com (acquired) and Clickdealer.com. \n
+My goal is to help you succeed and I do my best for your business.`
 
 // Experiences
 
-const MembitHistory = ["Developed efficient and maintainable software according to business objectives and needs of clients.",
-    "Used AWS Elastic Beanstalk service for deploying and scaling web applications and services developed with Next and Node.",
-    "Professional Experience with widely used React, Vue.js, Next.js, Nuxt.js.",
-    "Enhanced the productivity of the Front-End Developer section by improving the work distribution and process."
+const LeviHistory = ["As a software developer, I played a pivotal role in designing and developing cutting-edge web applications for clients in the finance and healthcare industries.",
+    "I led the design and implementation of key modules and also provided mentorship to junior developers, ensuring the successful delivery of high-quality solutions.",
+    "I developed a responsive and intuitive user interface for the e-commerce platform using Vue.js and harnessed the power of Vuex for state management to provide a dynamic and engaging shopping experience, engineered a robust backend system utilizing GraphQL, Node.js, and Express.js for efficient data retrieval and manipulation, integrated Postgres and Redis for relational database needs and caching optimization.",
+    "Technologies Used: Javascript, Python, React.js, Redux D3.js, Redux, Chart.js, Highcharts, Node.js, Express.js, crypto library, bcrypt library, MongoDB, Redis, TensorFlow, scikit-learn, Flask, Kubernetes, Docker Compose, GIt"
+]
+
+const VegaHistory = ["As a full-stack engineer, I was integral in developing an innovative e-commerce platform, leveraging a modern tech stack to deliver a seamless and feature-rich shopping experience for users.",
+    "I implemented a responsive and user-friendly interface for the online learning platform using React.js, integrated Redux for efficient state management, utilized Next.js for server-side rendering and SEO capabilities, collaborated with UX/UI designers for pixel-perfect designs, leveraged Tailwind CSS for rapid UI development, employed Jest and React Testing Library for unit and integration testing, integrated Storybook for component-driven development, and actively participated in code reviews, backend API integrations, and continuous improvement of frontend architecture and best practices.",
+    "Technologies Used: Vue.js, Vuex, React, Angular, JavaScript, GraphQL, Node.js, Express.js, Postgres, Redis, AWS (Amazon Web Services), Google Cloud Platform (GCP), Microsoft Azure, Docker, Kubernetes, Git, SVN",
 ];
-const QueensLabHistory = ["Designed and developed RestFul APIs for client applications using Django Rest Framework.",
-    "Participated as a member of a team in implementing a new customer relationship management system using Django and MySQL.",
-    "Integrated database systems and utilized ORM for efficient data management.",
-    "Assisted with debugging and resolution of complex issues in production systems."
+const BraineeringHistory = ["As a Frontend Engineer, I have been instrumental in leading the development of a cuttingedge data visualization platform, leveraging a modern tech stack to deliver intuitive and interactive user interfaces for data analysis and presentation. My role involved driving the frontend development and ensuring the seamless integration of advanced visualization features.",
+    "I architected and implemented a highly responsive and visually appealing user interface for the data visualization platform using Vue.js, integrated D3.js for custom and interactive visualizations, leveraged TypeScript for code maintainability and collaboration, utilized GraphQL for efficient data retrieval, employed advanced CSS techniques including SASS/SCSS and CSS-in-JS libraries, used Webpack as a module bundler and build tool, implemented responsive design principles.",
+    "Technologies Used: Vue.js, Vuex, D3.js, TypeScript, GraphQL, SASS/SCSS, Styled Components, Webpack, Media Queries, Flexbox/Grid Layouts, Git",
 ];
 
-const MembitSite = {
-    title: "Membit AB",
-    site: "https://www.membit.se/",
-    role: "Full-Stack Developer",
-    history: "JUNE 2021 – DECEMBER 2023 | HELSINGBORG, SWEDEN",
-    experience: MembitHistory
+const LeviSite = {
+    title: "Levi9 Technology Services",
+    site: "https://www.Vega.se/",
+    role: "Full-Stack Software Engineer",
+    history: "SEPTEMBER 2022 – APRIL 2024 | NOVI SAD, SERBIA",
+    experience: LeviHistory
 };
-const QueensLabSite = {
-    title: "QueensLab",
-    site: "https://www.queenslab.co/",
-    role: "Python Developer",
-    history: "NOVEMBER 2019 – MARCH 2021 | GÖTEBORG, SWEDEN",
-    experience: QueensLabHistory
+const VegaSite = {
+    title: "Vega IT",
+    site: "https://www.Vega.se/",
+    role: "Full-Stack Engineer",
+    history: "MAY 2020 – AUGUST 2022 | NOVI SAD, SERBIA",
+    experience: VegaHistory
+};
+const BraineeringSite = {
+    title: "Braineering IT Solutions",
+    site: "https://www.Braineering.co/",
+    role: "Frontend Engineer",
+    history: "OCTOBER 2017 – MAY 2020 | NOVI SAD, SERBIA",
+    experience: BraineeringHistory
 };
 
 
@@ -66,11 +77,19 @@ const projects = [["/projects/React1.png", "/projects/React2.png", "http://reale
 // Educations
 
 const university1 = {
-    title: "Campus Helsingborg",
-    site: "https://www.ch.lu.se/english/",
-    degree: "Bachelor's degree in Computer Science",
-    history: "August 2016 – October 2019 | HELSINGBORG, SWEDEN",
-    mark: "/educations/campus_helsingborg.png"
+    title: "University of Belgrade",
+    site: "http://arhiva.rect.bg.ac.rs/en/index.php",
+    degree: "Master of Computer Science (MSCS), Computer science",
+    history: "August 2013 – October 2017 | NOVI SAD, SERBIA",
+    mark: "/educations/belgrade.png"
+};
+
+const university2 = {
+    title: "University of Belgrade",
+    site: "http://arhiva.rect.bg.ac.rs/en/index.php",
+    degree: "Bachelor of Computer Science (BCompSc), Computer engineering",
+    history: "August 2009 – April 2013 | NOVI SAD, SERBIA",
+    mark: "/educations/belgrade.png"
 };
 
 
@@ -90,13 +109,13 @@ const skills = [["React", 87], ["Node.js", 95],
 const co_worker1 = {
     name: "Thiago Porto",
     role: "CTO / Web Design Company",
-    recommend: "Oskar displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.",
+    recommend: "Andrej displays exemplary professionalism and is able to take on challenges. He learns quickly and is an asset to any team.",
     img: "/references/Thiago.png"
 };
 const co_worker2 = {
     name: "Karina Mitchell",
     role: "UI/UX Designer  / Web Design Company",
-    recommend: "Oskar is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.",
+    recommend: "Andrej is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.",
     img: "/references/Karina.png"
 };
 
@@ -113,23 +132,26 @@ const contact = {
 // Social Link
 
 const socialLinks = {
-    github: 'https://github.com/Oskar0112',
-    skype: 'https://join.skype.com/invite/uhbygYzgRJbj',
-    discord: 'www.linkedin.com/in/oskar-molander'
+    github: 'https://github.com/andrejdukanic74',
+    skype: 'live:.cid.f7304ac867a4dea0',
+    discord: 'https://www.linkedin.com/in/andrej-dukanic-93255930a/'
 }
 
 
 // Total
 
 const experiences = {
-    MembitHistory,
-    QueensLabHistory,
-    MembitSite,
-    QueensLabSite
+    LeviHistory,
+    LeviSite,
+    VegaHistory,
+    VegaSite,
+    BraineeringHistory,
+    BraineeringSite
 }
 
 const educations = {
-    university1
+    university1,
+    university2
 }
 
 const references = {

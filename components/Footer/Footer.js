@@ -31,7 +31,7 @@ export const Footer = (props) => {
                         <SocialLinks passdata={socialLinks} />
                     </div>
                     <div className="sm:w-[20%]">
-                        © {year} Oskar Molander.
+                        © {year} Andrej Dukanic.
                     </div>
                 </div>
             </SectionContainer>
